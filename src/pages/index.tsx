@@ -1,4 +1,9 @@
+// Components
 import Head from "next/head";
+
+// Utilities
+// Interfaces
+// Hooks
 
 export default function Home() {
   return (
