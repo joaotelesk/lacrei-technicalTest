@@ -22,7 +22,7 @@ export const UlSecondary = styled.ul`
   @media (max-width: 570px) {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 0;
   }
 `;
 
