@@ -1,9 +1,13 @@
 // Components
 import Head from "next/head";
+import { MenuLinks } from "@/components/common/MenuLinks";
+
+// style's
+import { Main } from "@/styles/home";
 
 // Utilities
-// Interfaces
 // Hooks
+// Interfaces
 
 export default function Home() {
   return (
@@ -16,9 +20,11 @@ export default function Home() {
           content="Pessoas LGBTQUA+ nem sempre têm boas experiências ao cuidar da saúde do corpo e da mente. Para mudar esse cenário criamos o Lacrei Saúde."
         />
       </Head>
-      <main>
+
+      <Main>
+        <MenuLinks category="secondary" />
         <h1>Home | Lacrei Saúde</h1>
-      </main>
+      </Main>
     </>
   );
 }
