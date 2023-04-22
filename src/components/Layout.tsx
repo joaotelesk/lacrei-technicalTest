@@ -1,7 +1,8 @@
 // Components
+import { Footer } from "./footer/Footer";
+import { Header } from "./header/Header";
 // Utilities
 import { Nunito } from "next/font/google";
-import { Header } from "./header/Header";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -21,6 +22,7 @@ export function Layout({ children }: LayoutProps) {
       <div className={`${nunito.variable} font-sans`}>
         <Header />
         {children}
+        <Footer />
       </div>
     </>
   );
