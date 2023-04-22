@@ -1,14 +1,12 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-  height: 100vh;
+  min-height: 64vh;
   width: 100vw;
-  padding: 6rem 4rem;
-  padding-top: 8rem;
+  padding: 4rem;
 
   /* tablet */
   @media (max-width: 768px) {
-    padding: 2rem 1rem;
-    padding-top: 8rem;
+    padding: 1rem 1rem 1px 1rem;
   }
 `;
