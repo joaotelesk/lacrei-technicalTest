@@ -9,14 +9,14 @@ export const Container = styled.div`
   justify-content: space-between;
   background-color: var(--lightGray);
   align-items: center;
-  gap: 0 30px;
-  padding: 17px 4rem;
-  position: fixed;
+  gap: 0px 34px;
+  padding: 14px 4rem;
 
   /* tablet */
   @media (max-width: 768px) {
     justify-content: center;
-    padding: 1rem 2rem;
+    padding: 6px 2rem;
+    padding-top: 18px;
   }
 `;
 
@@ -24,7 +24,9 @@ export const Container = styled.div`
 export const Logo = styled.span`
   color: var(--darkGreen);
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 600;
+  line-height: 90%;
+
   &:hover {
     color: var(--lightGreen);
     transition: color 0.2s ease-in-out;

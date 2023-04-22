@@ -8,7 +8,7 @@ export const UlPrimary = styled.ul`
 
   /* mobile */
   @media (max-width: 570px) {
-    gap: 12px;
+    gap: 16px;
   }
 `;
 
@@ -27,10 +27,10 @@ export const UlSecondary = styled.ul`
 `;
 
 // Span - Primary
-
 export const SpanPrimary = styled.span<{ isActive: boolean }>`
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 600;
+  line-height: 0%;
   color: ${(props) => (props.isActive ? "var(--darkGreen)" : "var(-black)")};
   transform: 1ms;
 
@@ -49,7 +49,7 @@ export const SpanPrimary = styled.span<{ isActive: boolean }>`
 // Span - Secondary
 export const SpanSecondary = styled.span<{ isActive: boolean }>`
   font-size: 16px;
-  font-weight: ${(props) => (props.isActive ? 700 : 300)};
+  font-weight: ${(props) => (props.isActive ? 600 : 300)};
   color: var(-black);
 
   &:hover {

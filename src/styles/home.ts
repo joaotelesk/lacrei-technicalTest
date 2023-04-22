@@ -8,7 +8,7 @@ export const Main = styled.main`
 
   /* tablet */
   @media (max-width: 768px) {
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
     padding-top: 8rem;
   }
 `;
