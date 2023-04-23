@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
-// Div type Primary
+// Div - Primary
 export const Div = styled.div`
+  /* Desktop */
   min-width: 192px;
   height: 48px;
   background-color: var(--darkGreen);
@@ -11,21 +12,19 @@ export const Div = styled.div`
   border-radius: 8px;
   transition: background-color 0.3s ease-in-out;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
   span {
     color: var(--white);
     padding: 12px 32px;
     font-size: 18px;
     font-weight: 600;
   }
-
   &:hover {
     background-color: var(--lightGreen);
   }
 `;
-
-// Div type Secondary
+// Div - Secondary
 export const DivVariant = styled.p`
+  /* Desktop */
   min-width: 192px;
   height: 48px;
   background-color: var(--white);
@@ -36,14 +35,12 @@ export const DivVariant = styled.p`
   border-radius: 8px;
   transition: background-color 0.3s ease-in-out;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
   span {
     color: var(--darkGreen);
     padding: 12px 32px;
     font-size: 18px;
     font-weight: 600;
   }
-
   :hover {
     border: 2px solid var(--lightGreen);
 
