@@ -1,6 +1,6 @@
 // Components
 import Link from "next/link";
-import { MenuLinks } from "../common/MenuLinks/MenuLinks";
+import { MenuLinks } from "@/components/common/MenuLinks/MenuLinks";
 
 // style's
 import { Container, Logo } from "./styled";

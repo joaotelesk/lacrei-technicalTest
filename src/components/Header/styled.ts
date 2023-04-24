@@ -13,7 +13,7 @@ export const Container = styled.div`
   gap: 0px 34px;
   padding: 14px 4rem;
   /* tablet */
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     padding: 12px 2rem;
     padding-top: 18px;
   }

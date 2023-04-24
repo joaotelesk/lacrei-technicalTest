@@ -9,21 +9,25 @@ export const Container = styled.div`
   flex-direction: column;
   gap: 24px 0;
   /* Tablet */
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     padding: 8px 2rem;
     gap: 21px 0;
   }
   /* Mobile */
   @media (max-width: 520px) {
     padding: 8px 1rem;
-    gap: 21px 0;
+    gap: 8px 0;
   }
 `;
 // Hr
 export const Hr = styled.hr`
   /* Desktop */
   border-color: var(--mediumGreen);
-  margin-bottom: 12px;
+  margin-bottom: 4px;
+
+  /* Mobile */
+  @media (max-width: 520px) {
+  }
 `;
 // Div de SocialIcon
 export const Div = styled.div`

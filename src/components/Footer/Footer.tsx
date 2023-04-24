@@ -1,9 +1,9 @@
 // Components
-import { MenuLinks } from "../common/MenuLinks/MenuLinks";
+import { MenuLinks } from "@/components/common/MenuLinks/MenuLinks";
+import { SocialIcon } from "@/components/common/SocialIcon/SocialIcon";
 
 // style's
 import { Container, Hr, Div, Span } from "./styled";
-import { SocialIcon } from "../common/SocialIcon/SocialIcon";
 
 // Utilities
 // Hooks
