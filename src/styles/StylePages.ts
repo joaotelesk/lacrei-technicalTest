@@ -29,12 +29,32 @@ export const Section = styled.section`
 `;
 // DivContent - div dos conteúdos
 export const DivContent = styled.div`
-  max-width: 540px;
+  /* Desktop */
+  max-width: 560px;
   display: flex;
   flex-direction: column;
   gap: 32px 0;
+
+  justify-items: center;
+  /* Tablet */
+  @media (max-width: 1024px) {
+    gap: 15px 0;
+  }
+  /* Mobile */
+  @media (max-width: 520px) {
+    gap: 0 0;
+    align-items: center;
+  }
+`;
+
+// DivText - div de Title e Subtitle
+export const DivText = styled.div`
+  /* Desktop */
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-items: center;
+  gap: 32px 0;
   /* Tablet */
   @media (max-width: 1024px) {
     gap: 15px 0;
@@ -46,21 +66,23 @@ export const DivContent = styled.div`
 `;
 // DivButtons - div dos buttons
 export const DivButtons = styled.div`
+  /* Desktop */
   margin-top: 16px;
   display: flex;
   flex-direction: row;
-  gap: 16px;
+  gap: 16px 70px;
   justify-content: space-between;
-  max-width: 453px;
+  width: auto;
   /* Tablet */
   @media (max-width: 1024px) {
     margin-top: 33px;
+    gap: 16px;
+    width: auto;
   }
   /* Mobile */
   @media (max-width: 520px) {
     margin-top: 34px;
     flex-direction: column;
-    text-align: left;
   }
 `;
 //DivImg - div da image
