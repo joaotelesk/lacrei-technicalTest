@@ -22,7 +22,7 @@ export function MenuLinks({ category }: MenuLinksProps) {
       <CompUl>
         {[
           ["Home", "/"],
-          ["Pessoa Usuária", "/usuarios"],
+          ["Pessoa Usuária", "/usuaria"],
           ["Profissional", "/profissional"],
         ].map(([title, url], index) => (
           <li key={index}>
