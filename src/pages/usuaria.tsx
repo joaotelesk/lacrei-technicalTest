@@ -35,7 +35,7 @@ export default function Usuaria() {
           <DivImg>
             <Image
               src="/Image-Pessoa.svg"
-              width={555}
+              width={516}
               height={421}
               alt="Imagem da pagina Home"
             />

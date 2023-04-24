@@ -44,7 +44,7 @@ export default function Home() {
           <DivImg>
             <Image
               src="/Image-Home.svg"
-              width={555}
+              width={516}
               height={421}
               alt="Imagem da pagina Home"
             />

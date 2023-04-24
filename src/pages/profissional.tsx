@@ -34,8 +34,8 @@ export default function Profissional() {
           </DivContent>
           <DivImg>
             <Image
-              src="/Image-Pessoa.svg"
-              width={555}
+              src="/Image-Profissional.svg"
+              width={516}
               height={421}
               alt="Imagem da pagina Home"
             />
