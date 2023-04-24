@@ -28,9 +28,11 @@ export const UlSecondary = styled.ul`
 // Span - Primary
 export const SpanPrimary = styled.span<{ isActive: boolean }>`
   /* Desktop */
+  height: 48px;
+  width: auto;
+  line-height: none;
   font-size: 16px;
   font-weight: 600;
-  line-height: 0%;
   color: ${(props) => (props.isActive ? "var(--darkGreen)" : "var(-black)")};
   transform: 1ms;
   &:hover {
@@ -46,9 +48,12 @@ export const SpanPrimary = styled.span<{ isActive: boolean }>`
 // Span - Secondary
 export const SpanSecondary = styled.span<{ isActive: boolean }>`
   /* Desktop */
+  height: 48px;
+  width: auto;
   font-size: 16px;
   font-weight: ${(props) => (props.isActive ? 600 : 300)};
   color: var(-black);
+  line-height: none;
 
   &:hover {
     color: var(--darkGray);
