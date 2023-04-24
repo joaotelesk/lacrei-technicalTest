@@ -10,6 +10,7 @@ import {
   Main,
   Section,
   DivContent,
+  DivText,
   DivButtons,
   DivImg,
 } from "@/styles/StylePages";
@@ -32,10 +33,12 @@ export default function Home() {
       <Main>
         <Section>
           <DivContent>
-            <Title>Boas vindas a Lacrei Saúde</Title>
-            <SubTitle category="primary">
-              Uma plataforma segura e acolhedora para comunidade LGBTQIAPN+
-            </SubTitle>
+            <DivText>
+              <Title>Boas vindas a Lacrei Saúde</Title>
+              <SubTitle category="primary">
+                Uma plataforma segura e acolhedora para comunidade LGBTQIAPN+
+              </SubTitle>
+            </DivText>
             <DivButtons>
               <Button category="Primary" url="#" text="Pessoa Usuária" />
               <Button category="Secondary" url="#" text="Profissional" />
@@ -47,6 +50,7 @@ export default function Home() {
               width={516}
               height={421}
               alt="Imagem da pagina Home"
+              priority
             />
           </DivImg>
         </Section>

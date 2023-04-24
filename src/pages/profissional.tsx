@@ -5,7 +5,13 @@ import { SubTitle } from "@/components/common/SubTitle/SubTitle";
 import Image from "next/image";
 
 // style's
-import { Main, Section, DivContent, DivImg } from "@/styles/StylePages";
+import {
+  Main,
+  Section,
+  DivContent,
+  DivText,
+  DivImg,
+} from "@/styles/StylePages";
 
 // Utilities
 // Hooks
@@ -25,12 +31,14 @@ export default function Profissional() {
       <Main>
         <Section>
           <DivContent>
-            <Title>Profissional</Title>
-            <SubTitle category="secundary">
-              Buscamos recrutar pessoas profissionais da saúde que entendam as
-              necessidades e se comprometam com o bem-estar da comunidade
-              LGBTQIAPN+
-            </SubTitle>
+            <DivText>
+              <Title>Profissional</Title>
+              <SubTitle category="secundary">
+                Buscamos recrutar pessoas profissionais da saúde que entendam as
+                necessidades e se comprometam com o bem-estar da comunidade
+                LGBTQIAPN+
+              </SubTitle>
+            </DivText>
           </DivContent>
           <DivImg>
             <Image
@@ -38,6 +46,7 @@ export default function Profissional() {
               width={516}
               height={421}
               alt="Imagem da pagina Home"
+              priority
             />
           </DivImg>
         </Section>

@@ -5,7 +5,13 @@ import { SubTitle } from "@/components/common/SubTitle/SubTitle";
 import Image from "next/image";
 
 // style's
-import { Main, Section, DivContent, DivImg } from "@/styles/StylePages";
+import {
+  Main,
+  Section,
+  DivContent,
+  DivText,
+  DivImg,
+} from "@/styles/StylePages";
 
 // Utilities
 // Hooks
@@ -25,12 +31,14 @@ export default function Usuaria() {
       <Main>
         <Section>
           <DivContent>
-            <Title>Pessoa Usuária</Title>
-            <SubTitle category="secundary">
-              A Lacrei garante que pessoas LGBTQIAPN + recebam atendimento
-              realizado por profissionais de qualidade e que atendam às suas
-              necessidades de forma segura e acolhedora.
-            </SubTitle>
+            <DivText>
+              <Title>Pessoa Usuária</Title>
+              <SubTitle category="secundary">
+                A Lacrei garante que pessoas LGBTQIAPN + recebam atendimento
+                realizado por profissionais de qualidade e que atendam às suas
+                necessidades de forma segura e acolhedora.
+              </SubTitle>
+            </DivText>
           </DivContent>
           <DivImg>
             <Image
@@ -38,6 +46,7 @@ export default function Usuaria() {
               width={516}
               height={421}
               alt="Imagem da pagina Home"
+              priority
             />
           </DivImg>
         </Section>
