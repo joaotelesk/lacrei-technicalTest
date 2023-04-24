@@ -70,9 +70,9 @@ export const DivButtons = styled.div`
   margin-top: 16px;
   display: flex;
   flex-direction: row;
-  gap: 16px 70px;
+  gap: 16px;
   justify-content: space-between;
-  width: auto;
+  width: 450px;
   /* Tablet */
   @media (max-width: 1024px) {
     margin-top: 33px;
