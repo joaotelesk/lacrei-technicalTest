@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const Div = styled.div`
   /* Desktop */
   min-width: 192px;
+  max-width: 187px;
   height: 48px;
   background-color: var(--darkGreen);
   display: flex;
@@ -26,6 +27,7 @@ export const Div = styled.div`
 export const DivVariant = styled.p`
   /* Desktop */
   min-width: 192px;
+  max-width: 187px;
   height: 48px;
   background-color: var(--white);
   display: flex;
@@ -43,7 +45,6 @@ export const DivVariant = styled.p`
   }
   :hover {
     border: 2px solid var(--lightGreen);
-
     span {
       color: var(--lightGreen);
     }

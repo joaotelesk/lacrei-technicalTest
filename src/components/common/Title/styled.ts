@@ -9,7 +9,7 @@ export const H1 = styled.h1`
   max-width: 453px;
   line-height: 65px;
   /* Tablet */
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     font-size: 32px;
     max-width: 100%;
   }
