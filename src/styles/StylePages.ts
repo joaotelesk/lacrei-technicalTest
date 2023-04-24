@@ -29,9 +29,12 @@ export const Section = styled.section`
 `;
 // DivContent - div dos conteúdos
 export const DivContent = styled.div`
+  max-width: 540px;
   display: flex;
   flex-direction: column;
   gap: 32px 0;
+  align-items: flex-start;
+  justify-items: center;
   /* Tablet */
   @media (max-width: 1024px) {
     gap: 15px 0;
@@ -57,7 +60,7 @@ export const DivButtons = styled.div`
   @media (max-width: 520px) {
     margin-top: 34px;
     flex-direction: column;
-    align-items: center;
+    text-align: left;
   }
 `;
 //DivImg - div da image

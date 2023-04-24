@@ -28,13 +28,14 @@ export const PVariant = styled.p`
   font-weight: 300;
   color: var(--darkGray);
   line-height: 33px;
+  min-width: auto;
   max-width: 530px;
   padding-left: 20px;
   border-left: 5px solid var(--darkGreen);
   /* Tablet */
   @media (max-width: 1024px) {
     font-size: 16px;
-    max-width: 80%;
+    max-width: 100%;
     line-height: 20px;
   }
   /* Mobile */
