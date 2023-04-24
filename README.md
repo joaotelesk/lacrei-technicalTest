@@ -59,7 +59,7 @@ O projeto é um desafio técnico do processo seletivo da empresa Lacrei, para a 
 
 ## 🔗 Links:
 
-- [Site](https://vercel.com/joaotelesk/lacrei-technical-test/3WmhRbQbaVk2pfNxdG2oZoXdUuKV)
+- [Site](https://lacrei-technical-test.vercel.app/)
 - [Github](https://github.com/joaotelesk/lacrei-technicalTest)
 - [Figma](<https://www.figma.com/file/hzkXv2SZtiUdyneq23dAc7/Desafio-(Copy)?t=4q2VHi8Xgbkj0NQ4-6>)
 
